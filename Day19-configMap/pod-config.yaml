@@ -13,11 +13,10 @@ spec:
         configMapKeyRef:
           name: my-config
           key: fname
-
-
     - name: LASTNAME
       valueFrom:
         configMapKeyRef:
           name: my-config
           key: lname
 
+# Using config map as a env var

@@ -6,3 +6,5 @@ metadata:
 data:
   id: rk157
   password: Rahul@123
+
+# Example of using configmap as a Env Var
