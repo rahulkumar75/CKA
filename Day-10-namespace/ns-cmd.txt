@@ -11,7 +11,7 @@ kubectl config set-context --current --namespace=<namespace>
 
 Navigate to ANY ns:
 Use namespace in command (most common)
-kubectlget pods -n <namespace>
+kubectl get pods -n <namespace>
 
 Check current ns:
 kubectl config view --minify | grep namespace
