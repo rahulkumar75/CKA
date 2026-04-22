@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deploy-svc
+  name: nginx-deploy
   labels:
     env: demo
 spec: #this spec is for deployment
